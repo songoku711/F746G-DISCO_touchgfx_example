@@ -1,0 +1,21 @@
+
+{
+  "Application": {
+    "Name": "F746G-DISCO_touchgfx_button_led",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../F746G-DISCO_touchgfx_button_led.ioc --platform=m7",
+    "Family" : "STM32F7"
+  },
+  "Version": "4.16.0"
+}
